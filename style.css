@@ -15,6 +15,25 @@
     box-shadow: 0 -20px 20px -10px rgba(0, 0, 0, 0.15);
 }
 
-#inner-footer{
-    
-}
+.form-floating {
+    position: relative;
+  }
+
+  .form-floating input[type="text"] {
+    font-size: 16px; /* Ajusta el valor según sea necesario */
+    padding: 15px; /* Ajusta el valor según sea necesario */
+    height: auto; /* Para ajustar automáticamente la altura según el contenido */
+    text-align: left; /* Texto alineado a la derecha */
+    overflow: hidden; 
+  }
+
+  .form-floating label {
+    top: 0;
+    right: 0;
+  }
+
+  .msg-exito{
+    display:none;
+    margin-left: 20px;
+    color:rgb(72, 173, 41) !important;
+  }

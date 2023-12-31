@@ -1,0 +1,4 @@
+Host AWS-Web-lab
+  HostName 15.229.23.147
+  User ubuntu
+  IdentityFile C:\Users\ignacio.romero\Personal\Github\my-portfolio\web_key.pem
