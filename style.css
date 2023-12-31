@@ -27,13 +27,28 @@
     overflow: hidden; 
   }
 
-  .form-floating label {
+.form-floating label {
     top: 0;
     right: 0;
   }
 
-  .msg-exito{
+.msg-exito{
     display:none;
     margin-left: 20px;
     color:rgb(72, 173, 41) !important;
   }
+
+.color-hover {
+    font-size: 2.3rem !important;
+    color:black;
+    transition: all 0.3s ease; /* Transición suave durante 0.3 segundos */
+}
+
+.color-hover:hover {
+    font-size: 2.5rem !important;
+    color:rgb(109, 109, 109);
+}
+
+#card-container{
+  padding-top: 10px !important;
+}
